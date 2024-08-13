@@ -1,0 +1,170 @@
+estudiante11@ciem19-11 MINGW64 ~ (master)
+$ cd ..
+
+estudiante11@ciem19-11 MINGW64 /c/Users
+$ cd estudiante11
+
+estudiante11@ciem19-11 MINGW64 ~ (master)
+$ cd desktop/
+
+estudiante11@ciem19-11 MINGW64 ~/desktop (main)
+$ mkdir EXAMENC
+
+estudiante11@ciem19-11 MINGW64 ~/desktop (main)
+$ cd EXAMENC
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git init
+Initialized empty Git repository in C:/Users/estudiante11/Desktop/EXAMENC/.git/
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (master)
+$ git branch -M main
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ touch .gitignore
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git add .gitignore
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git commit -m "se agrego el archivo gitignore"
+[main (root-commit) ea8586f] se agrego el archivo gitignore
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git branch Equipo1
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo1
+Switched to branch 'Equipo1'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ touch Programa1.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+
+$ git add Programa1.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git commit -m "se agrego el programa 1"
+[Equipo1 7a473f0] se agrego el programa 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Programa1.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git branch main
+fatal: a branch named 'main' already exists
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git switch main
+Switched to branch 'main'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git branch Equipo2
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo2
+Switched to branch 'Equipo2'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo2)
+$ touch Programa2.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo2)
+$ git add Programa2.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo2)
+$ git commit -m "se agrego el programa 2"
+[Equipo2 46fc147] se agrego el programa 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Programa2.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo2)
+$ git branch main
+fatal: a branch named 'main' already exists
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo2)
+$ git switch main
+Switched to branch 'main'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git branch Equipo3
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo3
+Switched to branch 'Equipo3'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo3)
+$ touch Programa3.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo3)
+$ git add Programa3.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo3)
+$ git commit -m "se agrego el programa 3"
+[Equipo3 22186fc] se agrego el programa 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Programa3.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo3)
+$ git switch main
+Switched to branch 'main'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo1
+Switched to branch 'Equipo1'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git switch Equipo2
+Switched to branch 'Equipo2'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo2)
+$ git switch Equipo3
+Switched to branch 'Equipo3'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo3)
+$ git switch main
+Switched to branch 'main'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo1
+Switched to branch 'Equipo1'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ ^C
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git add Programa1.c
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git commit -m "Programa 1 terminado"
+[Equipo1 63c18ea] Programa 1 terminado
+ 1 file changed, 101 insertions(+)
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git switch main
+Switched to branch 'main'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo1
+Switched to branch 'Equipo1'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (Equipo1)
+$ git switch main
+Switched to branch 'main'
+
+estudiante11@ciem19-11 MINGW64 ~/desktop/EXAMENC (main)
+$ git switch Equipo2
+Switched to branch 'Equipo2'
+
+estudiante11@ciem19-11 MINGW64 ~/Desktop/EXAMENC (Equipo3)
+$ git switch Equipo2
+Switched to branch 'Equipo2'
+
+estudiante11@ciem19-11 MINGW64 ~/Desktop/EXAMENC (Equipo2)
+$ git add Programa2.c
+
+estudiante11@ciem19-11 MINGW64 ~/Desktop/EXAMENC (Equipo2)
+$ git commit -m "Programa 2 terminado"
+[Equipo2 a5cfed4] Programa 2 terminado
+ 1 file changed, 116 insertions(+)
